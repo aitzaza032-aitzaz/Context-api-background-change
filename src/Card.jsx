@@ -1,17 +1,16 @@
+```jsx
 import React from 'react'
 
 export default function Card() {
     return (
         <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="/">
-                <img className="p-8 rounded-t-lg" src="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                <img className="p-8 rounded-t-lg" src="./new200my.jpg" />
             </a>
             <div className="px-5 pb-5">
                 <a href="/">
                     <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                           GoPro HERO12 Black - Adventure Bundle
-
-
+                        GoPro HERO12 Black - Adventure Bundle
                     </h5>
                 </a>
                 <div className="flex items-center mt-2.5 mb-5">
@@ -77,3 +76,4 @@ export default function Card() {
         </div>
     );
 }
+```
