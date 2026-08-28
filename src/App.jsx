@@ -23,7 +23,7 @@ function App() {
       useEffect (()=>
       {
         document.querySelector(`html`).classList.remove("light", "dark")
-        document.querySelector(`html `).classList.add(themeMode) //chamge 
+        document.querySelector(`html`).classList.add(themeMode) //chamge 
 
       },[themeMode])
 
