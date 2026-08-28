@@ -1,5 +1,6 @@
 
 import React from 'react'
+import myImage from './new200my.jpg'
 
 export default function Card()  {
     return (
